@@ -1,0 +1,280 @@
+# author: Ruoyu Jia
+
+Background {
+	color 0.2 0.2 0.2
+	ambientLight 1 1 1 
+}
+
+Camera {
+	eye 0 0 30
+	lookAt 0 0 0
+	up 0 1 0
+	fovy 45
+}
+Lights {
+    Light {
+		position 20 20 20
+		color 0.5 0.5 0.5
+	}
+	   Light {
+		position -20 20 20
+		color 0.5 0.5 0.5
+	}
+}
+
+Materials {
+	Material {
+		textureFilename ../Project_3/Media/textures/1.jpg
+		diffuseColor 0.5 0.5 0.5
+		specularColor 0.5 0.5 0.5
+		reflectiveColor 0 0 0
+		shininess 50
+		transparentColor 0 0 0 
+		indexOfRefraction 0.6
+	}
+	Material {
+		textureFilename ../Project_3/Media/textures/2.jpg
+		diffuseColor 0.5 0.5 0.5
+		specularColor 0.5 0.5 0.5
+		reflectiveColor 0 0 0
+		shininess 50
+		transparentColor 0 0 0 
+		indexOfRefraction 0.6
+	}
+	Material {
+		textureFilename NULL
+		diffuseColor 0.2 0.3 0.2
+		specularColor 0.3 0.3 0.3
+		reflectiveColor 0.5 0.5 0.5
+		shininess 50
+		transparentColor 0 0 0 
+		indexOfRefraction 0.6
+	}
+	Material {
+		textureFilename NULL
+		diffuseColor 0.2 0.1 0.1
+		specularColor 0.1 0.1 0.1
+		reflectiveColor 0.1 0.1 0.1
+		shininess 50
+		transparentColor 0.9 0.9 0.9
+		indexOfRefraction 0.4
+	}
+	Material {
+		textureFilename NULL
+		diffuseColor 0.1 0.1 0.1
+		specularColor 0.2 0.3 0.2
+		reflectiveColor 0.7 0.7 0.7
+		shininess 50
+		transparentColor 0.4 0.4 0.4
+		indexOfRefraction 0.2
+	}
+		Material {
+		textureFilename NULL
+		diffuseColor 0.2 0.2 0.3
+		specularColor 0.3 0.3 0.3
+		reflectiveColor 0.1 0.1 0.1
+		shininess 50
+		transparentColor 0.7 0.7 0.7
+		indexOfRefraction 0.2
+	}
+		Material {
+		textureFilename NULL
+		diffuseColor 0.1 0.1 0.1
+		specularColor 0.3 0.3 0.3
+		reflectiveColor 0.1 0.1 0.1
+		shininess 50
+		transparentColor 0.7 0.7 0.7
+		indexOfRefraction 0.3
+	}
+}
+
+Group {
+	Sphere {
+		materialIndex 6
+		center 0 0 0
+		radius 8
+	}
+
+	Sphere {
+		materialIndex 3
+		center 1 8 1
+		radius 1
+	}
+		Sphere {
+		materialIndex 3
+		center 2 7 2
+		radius 1
+	}
+		Sphere {
+		materialIndex 3
+		center 3 6 1.9
+		radius 1
+	}
+		Sphere {
+		materialIndex 3
+		center 4 5 2
+		radius 1
+	}
+		Sphere {
+		materialIndex 3
+		center 5 4 7.8
+		radius 1
+	}
+		Sphere {
+		materialIndex 3
+		center 6 3 5.2
+		radius 1
+	}
+		Sphere {
+		materialIndex 3
+		center 7 2 4.5
+		radius 1
+	}
+		Sphere {
+		materialIndex 3
+		center 8 1 6.6
+		radius 1
+	}
+
+	Sphere {
+		materialIndex 2
+		center -1 8 1
+		radius 1
+	}
+		Sphere {
+		materialIndex 2
+		center -2 7 2
+		radius 1
+	}
+		Sphere {
+		materialIndex 2
+		center -3 6 1.9
+		radius 1
+	}
+		Sphere {
+		materialIndex 2
+		center -4 5 2
+		radius 1
+	}
+		Sphere {
+		materialIndex 2
+		center -5 4 7.8
+		radius 1
+	}
+		Sphere {
+		materialIndex 2
+		center -6 3 5.2
+		radius 1
+	}
+		Sphere {
+		materialIndex 2
+		center -7 2 4.5
+		radius 1
+	}
+		Sphere {
+		materialIndex 2
+		center -8 1 6.6
+		radius 1
+	}
+
+	Sphere {
+		materialIndex 4
+		center 1 -8 1
+		radius 1
+	}
+		Sphere {
+		materialIndex 4
+		center 2 -7 2
+		radius 1
+	}
+		Sphere {
+		materialIndex 4
+		center 3 -6 1.9
+		radius 1
+	}
+		Sphere {
+		materialIndex 4
+		center 4 -5 2
+		radius 1
+	}
+		Sphere {
+		materialIndex 4
+		center 5 -4 7.8
+		radius 1
+	}
+		Sphere {
+		materialIndex 4
+		center 6 -3 5.2
+		radius 1
+	}
+		Sphere {
+		materialIndex 4
+		center 7 -2 4.5
+		radius 1
+	}
+		Sphere {
+		materialIndex 4
+		center 8 -1 6.6
+		radius 1
+	}
+
+	Sphere {
+		materialIndex 5
+		center -1 -8 1
+		radius 1
+	}
+		Sphere {
+		materialIndex 5
+		center -2 -7 2
+		radius 1
+	}
+		Sphere {
+		materialIndex 5
+		center -3 -6 1.9
+		radius 1
+	}
+		Sphere {
+		materialIndex 5
+		center -4 -5 2
+		radius 1
+	}
+		Sphere {
+		materialIndex 5
+		center -5 -4 7.8
+		radius 1
+	}
+		Sphere {
+		materialIndex 5
+		center -6 -3 5.2
+		radius 1
+	}
+		Sphere {
+		materialIndex 5
+		center -7 -2 4.5
+		radius 1
+	}
+		Sphere {
+		materialIndex 5
+		center -8 -1 6.6
+		radius 1
+	}
+	Triangle {
+		vertex0 15 -15 -15
+		vertex1 15 15 -15
+		vertex2 -15 -15 -15
+		tex_xy_0 1 1
+		tex_xy_1 1 0
+		tex_xy_2 0 1
+		materialIndex 0
+	}
+	Triangle {
+		vertex0 -15 15 -15
+		vertex1 -15 -15 -15
+		vertex2 15 15 -15
+		tex_xy_0 0 0
+		tex_xy_1 0 1
+		tex_xy_2 1 0
+		materialIndex 0
+	}
+	
+}
